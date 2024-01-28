@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+	/* FONTS */
+	.title-large {
+		@apply font-body text-57 leading-64;
+	}
+
+	.title-medium {
+		@apply font-body text-45 leading-52;
+	}
+
+	.title-small {
+		@apply font-body text-36 leading-44;
+	}
+
+	.body-large {
+		@apply font-body text-16 leading-24;
+	}
+
+	.body-medium {
+		@apply font-body text-14 leading-20;
+	}
+
+	.body-small {
+		@apply font-body text-12 leading-16;
+	}
+
+	.label-large {
+		@apply font-body text-14 leading-20;
+	}
+
+	.label-medium {
+		@apply font-body text-12 leading-16;
+	}
+
+	.label-small {
+		@apply font-body text-11 leading-16;
+	}
+}
